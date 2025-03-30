@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-    <project name="houji-development/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="lineage-22.1" >
+    <project name="houji-development/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="lineage-22.2" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
         <!-- add guards for CAF repositories -->
